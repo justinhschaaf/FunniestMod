@@ -1,0 +1,16 @@
+name: FunniestMinecraftMod
+description: The FUNNIEST Minecraft Mod!
+author: justinhschaaf
+website: "https://justinschaaf.com"
+version: 1.1
+api-version: 1.16
+main: com.justinschaaf.funniestmod.FunniestMod
+commands:
+    togglefunniest:
+        description: Toggles the changes the funniest mod makes.
+        usage: "/togglefunniest"
+        permission: "funniest.toggle"
+permissions:
+    funniest.toggle:
+        default: op
+        description: Permits this user to toggle the mod on or off
